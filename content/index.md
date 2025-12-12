@@ -6,4 +6,4 @@ Hey! I'm `emailisgone` and this is an archive of my university and (mostly) pers
 
 # Latest projects
 
-* [A* Search](Projects/astar.md) [2025-12-12]
+* [A* Search](Projects/astarsearch.md) [2025-12-12]
