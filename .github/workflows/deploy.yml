@@ -32,6 +32,12 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
+      - name: Copy A* App
+        run: cp -r assets/astar public/astar
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
  
   deploy:
     needs: build
