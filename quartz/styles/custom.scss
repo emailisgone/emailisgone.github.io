@@ -1,16 +1,26 @@
 @use "./base.scss";
 
 // put your custom CSS here!
-.explorer .folder-outer > a.folder-title {
-  pointer-events: none;
-  cursor: default;
-  
-  &:hover {
-    text-decoration: none;
-  }
+.explorer .folder-outer>a.folder-title {
+    pointer-events: none;
+    cursor: default;
+
+    &:hover {
+        text-decoration: none;
+    }
 }
 
-.explorer .folder-outer > button.folder-button {
-  pointer-events: auto;
-  cursor: pointer;
+.explorer .folder-outer>button.folder-button {
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.popover-hint[data-slug$="/projects"] {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
 }
