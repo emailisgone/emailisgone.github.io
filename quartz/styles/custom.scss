@@ -15,12 +15,8 @@
     cursor: pointer;
 }
 
-.popover-hint[data-slug$="/index"] {
+.content-meta .popover-hint[data-slug*="projects"] {
   pointer-events: none;
   cursor: default;
   text-decoration: none;
-  
-  &:hover {
-    text-decoration: none;
-  }
 }
